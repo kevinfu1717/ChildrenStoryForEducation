@@ -25,8 +25,28 @@
 
 LLM generate children story with a given theme and a page of a picture book. By using the characters drawn in children’s picture books as the protagonists of the story, parents can define reminders or good habits as the theme of the story to create personalized tales. Accroding to the Edge browser, it can be read aloud the story without to install any other apps, making it convenient and user-friendly.
 
+## 2. Technical points 要点
 
-## 2. Requirements配置
+### A. 大模型
+
+选用Xcomposer2-7b是可以在RTX3090跑的跨模态大模型。无需调用API可以自己玩。识别图片能力还是很不错，如果故事能力能更好提高就更好
+
+### B. prompts优化
+
+结合coze中提示词优化，再进行修改。用专门的promptBase.py来存放方便迭代。先定义角色，再定义任务，再告诉其识别图片，再创作故事
+
+### C. 浏览器阅读
+
+Edge朗读可选多种口音与语言，但也还是不能读gradio的textbox，所以改为输出在button上，让其进行阅读。qq阅读器暂时是也无法读出。
+
+### D.安装
+
+因模型有16GB，有时下载会因网络问题卡住，可参照3.2中所述先下载好模型
+
+
+## 3.  Deployment 部署
+
+### 3.1 Requirements配置
 
 </details>
 
@@ -44,7 +64,6 @@ LLM generate children story with a given theme and a page of a picture book. By 
 
 </details>
 
-
 </details>
 
 <details>
@@ -54,7 +73,7 @@ LLM generate children story with a given theme and a page of a picture book. By 
 
 </details>
 
-## 3.  Deployment 部署
+### 3.2 Install 安装与配置
 
 </details>
 
