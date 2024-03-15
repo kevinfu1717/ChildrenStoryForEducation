@@ -20,22 +20,35 @@ LLM generate children story with a given theme and a page of a picture book. By 
 
 ## 2. Requirements配置
 
-### 2.1 部署设备要求
+</details>
+
+<details>
+  <summary style="font-weight: bold; font-size: larger;">⚙️部署设备要求</summary>
 
 - CPU：Intel Core i5 or above
 - GPU：GPU Memory >20G （运行起来以后大约占18~19GB显存）
 - 内存：16GB or above
 - 存储：20GB or above
 
-> 可参见下方部署机运行后情况：
-![Image text](Screenshots/4.jpg)
+> 可参见下方部署机rtx3090运行后情况：
+> ![Image text](Screenshots/4.jpg)
 > 在RTX3090独占运行的情况下，大约推理时间 14s
 
-### 2.2 查看设备要求
+</details>
+
+
+</details>
+
+<details>
+  <summary style="font-weight: bold; font-size: larger;">⚙️查看设备要求</summary>
 
 - 可上网的，装有Edge浏览器的手机（也可以是电脑）
 
+</details>
+
 ## 3.  Deployment 部署
+
+</details>
 
 <details>
   <summary style="font-weight: bold; font-size: larger;">⚙️部署到本地Windows10/ubuntu环境中</summary>
@@ -82,15 +95,15 @@ pip install -r requirements.txt
 
 ## 4. Demo 效果展示
 
+### Bilbili 视频
+
+<iframe src="//player.bilibili.com/player.html?aid=1101785509&bvid=BV1nw4m1o7TY&cid=1470939547&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 ### 预览
 
 > 基于一页的的儿童绘本与定义的"早上起来刷牙"的主题创作的故事：
 
 ![Image text](Screenshots/3.jpg)
-
-### 视频
-
-<iframe src="//player.bilibili.com/player.html?aid=1101785509&bvid=BV1nw4m1o7TY&cid=1470939547&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 相关拓展
 
