@@ -1,0 +1,4 @@
+modelscope
+modelscope[multi-modal]
+torch==2.1.2
+gradio==4.19.1
