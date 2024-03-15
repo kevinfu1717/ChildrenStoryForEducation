@@ -55,12 +55,16 @@ pip install -r requirements.txt
 
 ```python3 app.py ```
 
+</details>
+
 <details>
   <summary style="font-weight: bold; font-size: larger;">⚙️部署到本地ModelScope</summary>
 
 1. 在创空间中创建Gradio 4.19.1的项目
 2. 通过git上传项目或把项目文件上传到创空间
 3. 设置上架运行
+
+</details>
 
 ### Demo 效果展示
 
