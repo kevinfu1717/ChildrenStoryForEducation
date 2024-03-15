@@ -15,7 +15,7 @@ def recognize(theme, webcam):  # webcam is rgb
     if webcam is not None:
         print('theme', theme)
         print(webcam.size)
-        result = predict(prompts2, theme, imageList=[webcam])
+        result = predict(prompts1, theme, imageList=[webcam])
     else:
         result = "【请先上传图片或选默认照片后，再按生成按钮】"
     return result

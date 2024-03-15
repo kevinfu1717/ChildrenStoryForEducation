@@ -25,7 +25,7 @@ if quant==False:
 else:
     ckpt_path = "Shanghai_AI_Laboratory/internlm-xcomposer2-7b-4bit/"
 
-if not os.path.exists(ckpt_path) or download==True:
+if not os.path.exists(ckpt_path+"tokenizer.model") or download==True:
     from modelscope import snapshot_download
     model_dir = snapshot_download(ckpt_path)
 else:
