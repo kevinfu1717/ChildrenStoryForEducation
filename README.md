@@ -1,27 +1,41 @@
 # ChildrenStoryForEducation
 
+
+
 ### 1. Abstract 项目简介
 
-> 在移动端或电脑端用Edge浏览器访问后即可朗读个性化故事。打开网页，无需下载其他app即可听个性化故事，方便易用。
+> 移动端或电脑端用Edge浏览器访问后即可听到个性化故事来教育或引导小朋友。打开网页，无需下载app即可听个性化故事，方便易用。
+> 
+
+1. 在Edge浏览器中打开部署的网页，上传儿童正在看的绘本中任意一页，
+2. 程序将该页所画的角色作为故事的主角，并提取这主角的特点或画面的场景。
+3. 父母可以定义一些提醒或好习惯作为故事主题，创作个性化的故事。
+4. 然后，让浏览器阅读这个故事。
+
+> **小朋友基于看到的绘本，同时听到该页绘本衍生的富有意义的故事。使故事更真实，也更让小朋友接受**
 
 LLM generate children story with a given theme and a page of a picture book. By using the characters drawn in children’s picture books as the protagonists of the story, parents can define reminders or good habits as the theme of the story to create personalized tales. Accroding to the Edge browser, it can be read aloud the story without to install any other apps, making it convenient and user-friendly.
 
-在Edge浏览器中打开部署的网页，上传儿童正在看的绘本中任意一页，程序将该页所画的角色作为故事的主角，并提取这主角的特点或画面的场景。父母可以定义一些提醒或好习惯作为故事主题，创作个性化的故事。
+   ![Image text](Screenshots/mp1.jpg)
 
-### 2. Requirements
+## 2. Requirements配置
 
-#### 2.1 部署设备要求
+### 2.1 部署设备要求
 
 - CPU：Intel Core i5 or above
-- GPU：GPU Memory >20G
+- GPU：GPU Memory >20G （运行起来以后大约占18~19GB显存）
 - 内存：16GB or above
 - 存储：20GB or above
 
-#### 2.2 查看设备要求
+> 可参见下方部署机运行后情况：
+![Image text](Screenshots/4.jpg)
+> 在RTX3090独占运行的情况下，大约推理时间 14s
+
+### 2.2 查看设备要求
 
 - 可上网的，装有Edge浏览器的手机（也可以是电脑）
 
-### 3.  Deployment 部署
+## 3.  Deployment 部署
 
 <details>
   <summary style="font-weight: bold; font-size: larger;">⚙️部署到本地Windows10/ubuntu环境中</summary>
@@ -66,27 +80,35 @@ pip install -r requirements.txt
 
 </details>
 
-### Demo 效果展示
+## 4. Demo 效果展示
 
-#### 预览
+### 预览
+
+> 基于一页的的儿童绘本与定义的"早上起来刷牙"的主题创作的故事：
+
+![Image text](Screenshots/3.jpg)
+
+### 视频
+
+<iframe src="//player.bilibili.com/player.html?aid=1101785509&bvid=BV1nw4m1o7TY&cid=1470939547&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 相关拓展
 
 - [InternLM-XComposer GitHub 链接](https://github.com/InternLM/InternLM-XComposer))
 - [InternLM GitHub 链接](https://github.com/InternLM/InternLM/tree/main)
 
-### Updates 更新
+## 5. Updates 更新
 
 [2024.3.15]：Edge朗读自定义故事
 
-### Todo
+## 6. Todo
 
 - [x] 基于InternLM-Xcomposer2实现
 - [x] 调整gradio UI，让Edge浏览器可以朗读
 - [ ] 可以生成粤语口语化的故事
 - [ ] 接入其他LLM
 
-### 特别鸣谢
+## 7. 特别鸣谢
 
 感谢上海人工智能实验室，感谢Xcomposer相关开发人员
 
