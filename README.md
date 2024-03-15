@@ -104,8 +104,9 @@ pip install -r requirements.txt
 ## 4. Demo 效果展示
 
 ### Bilbili 视频
+[[基于InternLM-Xcomposer2的个性化故事创作——结合儿童绘本与自定义主题创作\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1nw4m1o7TY/?vd_source=ac02fb05dd2d9a898d6f0f5012ad3341)]
 
-[![](https://bb-embed.herokuapp.com/embed?v=BV1jS4y1w7SW)](https://player.bilibili.com/player.html?aid=683633468&bvid=BV1jS4y1w7SW&cid=711074429&page=1)
+
 
 
 ### 预览
