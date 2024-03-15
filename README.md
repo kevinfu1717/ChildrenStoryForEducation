@@ -105,7 +105,8 @@ pip install -r requirements.txt
 
 ### Bilbili 视频
 
-<iframe src="//player.bilibili.com/player.html?aid=1101785509&bvid=BV1nw4m1o7TY&cid=1470939547&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+[![](https://bb-embed.herokuapp.com/embed?v=BV1jS4y1w7SW)](https://player.bilibili.com/player.html?aid=683633468&bvid=BV1jS4y1w7SW&cid=711074429&page=1)
+
 
 ### 预览
 
