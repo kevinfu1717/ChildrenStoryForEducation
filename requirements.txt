@@ -1,3 +1,0 @@
-modelscope
-modelscope[multi-modal]
-torch==2.1.2
