@@ -4,8 +4,8 @@
 
 ### 1. Abstract 项目简介
 
-> 移动端或电脑端用Edge浏览器访问后即可听到个性化故事来教育或引导小朋友。打开网页，无需下载app即可听个性化故事，方便易用。
-> 
+>移动端或电脑端用Edge浏览器访问后即可听到个性化故事来教育或引导小朋友。打开网页，无需下载app即可听个性化故事，方便易用。
+
 
 1. 在Edge浏览器中打开部署的网页，上传儿童正在看的绘本中任意一页，
 2. 程序将该页所画的角色作为故事的主角，并提取这主角的特点或画面的场景。
@@ -14,9 +14,10 @@
 
 > **小朋友基于看到的绘本，同时听到该页绘本衍生的富有意义的故事。使故事更真实，也更让小朋友接受**
 
+![Image text](Screenshots/mp1.jpg)
+
 LLM generate children story with a given theme and a page of a picture book. By using the characters drawn in children’s picture books as the protagonists of the story, parents can define reminders or good habits as the theme of the story to create personalized tales. Accroding to the Edge browser, it can be read aloud the story without to install any other apps, making it convenient and user-friendly.
 
-   ![Image text](Screenshots/mp1.jpg)
 
 ## 2. Requirements配置
 
